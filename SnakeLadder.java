@@ -1,6 +1,6 @@
 package com.snakeladder;
 
-public class SnakeLadderGameUC2 {
+public class SnakeLadderGame {
 	private int player1;
 	public void snakeLadder()
 	{
@@ -10,7 +10,7 @@ public class SnakeLadderGameUC2 {
 	}
     public static void main(String[] args) {
 		System.out.println("Welcome to Snake Ladder Game");
-		SnakeLadderGameUC2 game = new SnakeLadderGameUC2();
+		SnakeLadderGame game = new SnakeLadderGame();
 	      game.snakeLadder();
 	}
 }
